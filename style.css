@@ -1,0 +1,14 @@
+.parent{
+    background-color: aqua;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: end;
+    align-items: center;
+}
+.child{
+    background-color: brown;
+    margin: 5px;
+    padding: 10px;
+}

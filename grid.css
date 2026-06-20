@@ -1,0 +1,23 @@
+body{
+    margin: 5px;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    gap: 1em;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 200px 200px 200px; */
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    /* grid-auto-flow: row; */
+    grid-auto-flow: column;
+}
+
+.item{
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+    padding: 2em;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}

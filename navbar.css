@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color:rgb(28, 28, 30) ;
+    color: white;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: rgb(183, 198, 227);
+    padding: 10px;
+    color: black;
+}
+
+.nav-left{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+    color: black;
+}
+
+.login, .signup{
+    /* margin: 1px; */
+    padding: 10px;
+    background-color: rgb(188, 188, 188);
+}
